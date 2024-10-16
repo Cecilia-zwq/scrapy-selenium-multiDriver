@@ -4,11 +4,11 @@
 
 # Problem
 
-the orginal package could only open one browser driver at a time, which is quite slow for a scrapy
+The orginal package could only open one browser driver at a time, which is quite slow for a scrapy
 
 # Adaptation
 
-**I rewrote middlewares.py inorder to enable multiple browser drivers at same time**
+I rewrote **scrapy_selenium/middlewares.py** inorder to enable multiple browser drivers at same time.
 
 ## Configuration
 
@@ -19,4 +19,4 @@ After following the Configuration step in orginal project, you can also set:
 
 ## Result
 
-**Now, you can open multiple browser drivers at one time! Enjoy your scrapy journey.**  
+Now, you can open **multiple** browser drivers at one time! Enjoy your scrapy journey🥳
